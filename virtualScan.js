@@ -5,7 +5,7 @@ $( document ).ready(function(){
   key.which = 13;
 
   buttonPlacement.before(
-    optionButton("virtualScanButton", "Virtual Scan", "#FFFFFF", "#00cc00", "3px")
+    optionButton("virtualScanButton", "Virtual Scan", "#FFFFFF", "#5DADE2", "3px")
   );
 
   $("#virtualScanButton").click(function(e){
