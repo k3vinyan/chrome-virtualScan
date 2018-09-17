@@ -36,26 +36,6 @@ $( document ).ready(function(){
     }, 2500)
   }
 
-  // function loopTbas(array, start, e){
-  //   const enterKey = jQuery.Event( 'keydown', { which: $.ui.keyCode.ENTER } );
-  //   const arr = array;
-  //   console.log(event)
-  //
-  //   for(let i = 0; i < arr.length; i++){
-  //     (function(){
-  //       setTimeout(function(){
-  //         console.log(arr[i])
-  //       }, 3000)
-  //     })(i);
-  //   }
-  // }
-  //
-  // function doSetTimeout(tba, event){
-  //   setTimeout(function(){
-  //     console.log(tba)
-  //   }, 2500)
-  // }
-
   function optionButton(id, value, color, bgColor, padding){
        var id = id;
        var value = value;
